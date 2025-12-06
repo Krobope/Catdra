@@ -49,34 +49,6 @@ public class CatHydra {
         }
 
         final int finalDelay = delay;
-        /*
-        Thread t3 = new Thread() {
-            public void run() {
-
-                Robot robot = null;try {
-                    robot = new Robot();
-                } catch (AWTException e) {
-                    throw new RuntimeException(e);
-                }
-
-                if(auto) {
-                    while (true) {
-                        try {
-                            Thread.sleep(finalDelay);
-                        } catch (InterruptedException e) {
-                            throw new RuntimeException(e);
-                        }
-                        robot.keyPress(KeyEvent.VK_ENTER);
-                        robot.keyRelease(KeyEvent.VK_ENTER);
-                    }
-
-                }
-
-            }
-        };
-        */
-        //t3.start();
-
         genBox();
 
     }
@@ -88,7 +60,6 @@ public class CatHydra {
         final int finalDelay = delay;
 
         ImageIcon cat = new ImageIcon("cat.png");
-
         Random rand = new Random();
 
         // Get screen size
