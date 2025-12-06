@@ -15,13 +15,13 @@ There are 2 modes, and 5 different speeds for the auto mode
 
 SPEEDS:
 
-Snail: 500ms delay
+Snail: 1000ms delay
 
-Fish: 250ms delay
+Fish: 500ms delay
 
-Cat: 150ms delay
+Cat: 300ms delay
 
-Cheetah: 50ms delay
+Cheetah: 100ms delay
 
 Light: 0ms delay (Only limited by hardware)
 
